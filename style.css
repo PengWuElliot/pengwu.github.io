@@ -26,20 +26,39 @@ html, body {
 
 .top-circle {
   position: absolute;
-  top: 20%;                /* 距离顶部25% */
-  left: 50%;               /* 水平居中 */
+  top: 20%;
+  left: 50%;
   transform: translateX(-50%);
   width: 20px;
-  height: 20px;    
+  height: 20px;
   max-width: 200px;
-  max-height: 200px;        /* 补上单位 */
+  max-height: 200px;  
   border-radius: 50%;
   object-fit: cover;
   box-shadow: 0 0 6px rgba(0,0,0,0.3);
-  border: 1px solid white;
+  border: 2px solid white;
   z-index: 10;
+  animation: blobMorph 6s infinite ease-in-out;
 }
 
+@keyframes blobMorph {
+  0% {
+    border-radius: 50% 48% 50% 48% / 50% 52% 48% 50%;
+    transform: translateX(-50%) scale(1);
+  }
+  33% {
+    border-radius: 49% 51% 48% 52% / 52% 48% 50% 50%;
+    transform: translateX(-50%) scale(1.02);
+  }
+  66% {
+    border-radius: 51% 49% 52% 48% / 48% 52% 50% 50%;
+    transform: translateX(-50%) scale(0.98);
+  }
+  100% {
+    border-radius: 50% 48% 50% 48% / 50% 52% 48% 50%;
+    transform: translateX(-50%) scale(1);
+  }
+}
 
 .overlay-text {
   position: absolute;
@@ -82,8 +101,10 @@ h1, h2 {
   color: #2c3e50;
 }
 
-p {
-  line-height: 1.6;
+.text-container p {
+  line-height: 2;               /* 增大行距 */
+  color: #555;                  /* 字体淡一些，#555 是一种柔和的深灰 */
+  font-size: 16px;              /* 可选：让字体大小也舒服一些 */
 }
 
 ul {
@@ -97,4 +118,23 @@ a {
 
 a:hover {
   text-decoration: underline;
+}
+
+.education-header {
+  display: flex;
+  align-items: center;
+  margin-top: 40px;
+  margin-bottom: 20px;
+}
+
+.education-header img {
+  height: 500px;         /* 固定高度 */
+  width: auto;          /* 自动等比例缩放宽度 */
+  margin-right: 10px;
+}
+
+.education-header h2 {
+  margin: 0;
+  font-size: 20px;
+  color: #2c3e50;
 }
