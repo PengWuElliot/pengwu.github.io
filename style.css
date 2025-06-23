@@ -1,0 +1,100 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  overflow: hidden;
+  font-family: sans-serif;
+}
+
+.container {
+  display: flex;
+  height: 100vh;
+}
+
+.image-container {
+  position: relative; /* 使子元素绝对定位基于此容器 */
+  flex: 1;
+  max-width: 40%;
+  overflow: hidden;
+}
+
+.image-container img {
+  display: block;
+  height: 100vh;
+  width: auto;
+}
+
+.top-circle {
+  position: absolute;
+  top: 20%;                /* 距离顶部25% */
+  left: 50%;               /* 水平居中 */
+  transform: translateX(-50%);
+  width: 20px;
+  height: 20px;    
+  max-width: 200px;
+  max-height: 200px;        /* 补上单位 */
+  border-radius: 50%;
+  object-fit: cover;
+  box-shadow: 0 0 6px rgba(0,0,0,0.3);
+  border: 1px solid white;
+  z-index: 10;
+}
+
+
+.overlay-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  font-size: 18px;
+  font-weight: 400;
+  text-shadow: 0 0 6px rgba(0, 0, 0, 0.5);
+  text-align: center;
+  white-space: nowrap;
+  line-height: 2;
+}
+
+.overlay-text .name {
+  font-weight: 700;
+  font-size: 22px;
+  margin-bottom: 6px;
+  white-space: nowrap;
+}
+
+
+.image-container img {
+  height: 100vh;
+  width: auto;
+  display: block;
+}
+
+.text-container {
+  flex: 2;
+  padding: 40px;
+  overflow-y: auto;
+  box-sizing: border-box;
+  background-color: #f8f8f8;
+}
+
+h1, h2 {
+  margin-top: 0;
+  color: #2c3e50;
+}
+
+p {
+  line-height: 1.6;
+}
+
+ul {
+  padding-left: 20px;
+}
+
+a {
+  color: #1e90ff;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
