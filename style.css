@@ -138,3 +138,33 @@ a:hover {
   font-size: 20px;
   color: #2c3e50;
 }
+
+/* 隐藏默认鼠标 */
+body {
+  cursor: none;
+}
+
+/* 外圈 */
+.custom-cursor {
+  position: fixed;
+  width: 30px;
+  height: 30px;
+  border: 2px solid rgba(0, 0, 0, 0.6);
+  border-radius: 50%;
+  pointer-events: none;
+  z-index: 9999;
+  transform: translate(-50%, -50%);
+  transition: background-color 0.2s;
+}
+
+/* 内部小点 */
+.cursor-dot {
+  position: fixed;
+  width: 6px;
+  height: 6px;
+  background-color: black;
+  border-radius: 50%;
+  pointer-events: none;
+  z-index: 10000;
+  transform: translate(-50%, -50%);
+}

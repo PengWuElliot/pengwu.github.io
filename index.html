@@ -6,31 +6,64 @@
   <title>About Peng</title>
   <link rel="stylesheet" href="style.css" />
 </head>
-<body>
-  <div class="container">
-    <div class="image-container">
-      <img class="top-circle" src="assets/profile.jpg" alt="profile" />
-      <img src="assets/norway.png" alt="Peng's Photo" />
-      <div class="overlay-text">
-        <div class="name">Peng</div>
-        <div class="quote">Live today as if it were the last.</div>
-      </div>
-    </div>
-    <div class="text-container">
-        <h1>About Me</h1>
-        <p>Hey there! 👋 I'm <strong>Peng</strong>. I'm doing my master study in the double degree program between <strong>KTH </strong>and <strong>Aalto University</strong>.
-            Currently I'm writing my thesis (Anomaly detection empowered by the diffusion model) under the guidance of <strong>Prof. Chao Yang</strong> and <strong>Professor Lei Feng</strong>.
-            My study focuses on the implementation and application of Artificial Intelligence Algorithms. 
-            I love being in nature and enjoy sitting and hiking in forests and mountains. I have a deep passion for reading, 
-            from ancient Stoic philosophy to Hayek's political economy theories. They changed me a lot. 
-        </p>
-        <p>📄 You can find my detailed CV <a href="#">here</a>.</p>
-        <div class="education-header">
-            <img src="assets/person.jpg" alt="Education Icon" />
-            <h2>Education</h2>
-        </div>
 
+
+<body>
+    <div class="container">
+        <div class="image-container">
+        <img class="top-circle" src="assets/profile.jpg" alt="profile" />
+        <img src="assets/norway.png" alt="Peng's Photo" />
+        <div class="overlay-text">
+            <div class="name">Peng</div>
+            <div class="quote">Live today as if it were the last.</div>
+        </div>
+        </div>
+        <div class="text-container">
+            <h1>About Me</h1>
+            <p>Hey there! 👋 I'm <strong>Peng</strong>. I'm doing my master study in the double degree program between <strong>KTH </strong>and <strong>Aalto University</strong>.
+                Currently I'm writing my thesis (Anomaly Detection Empowered by Diffusion Models) under the guidance of <strong>Prof. Chao Yang</strong> and <strong>Professor Lei Feng</strong>.
+                My study focuses on the implementation and application of Artificial Intelligence Algorithms. 
+                I love being in nature and enjoy sitting and hiking in forests and mountains. I have a deep passion for reading, 
+                from ancient Stoic philosophy to Hayek's political economy theories. Their spartan character and simple way of life shaped my life and mind.
+            </p>
+            <p>📄 You can find my detailed CV <a href="#">here</a>.</p>
+            <div class="education-header">
+                <img src="assets/person.jpg" alt="Education Icon" />
+                <h2>Education</h2>
+            </div>
+        </div>
     </div>
-  </div>
+    <script>
+        const outerCursor = document.createElement('div');
+        const innerDot = document.createElement('div');
+
+        outerCursor.classList.add('custom-cursor');
+        innerDot.classList.add('cursor-dot');
+
+        document.body.appendChild(outerCursor);
+        document.body.appendChild(innerDot);
+
+        let mouseX = 0, mouseY = 0;
+        let dotX = 0, dotY = 0;
+
+        document.addEventListener('mousemove', (e) => {
+            mouseX = e.clientX;
+            mouseY = e.clientY;
+            outerCursor.style.top = `${mouseY}px`;
+            outerCursor.style.left = `${mouseX}px`;
+        });
+
+        function animateDot() {
+            // 滞后运动 (越小越慢)
+            dotX += (mouseX - dotX) * 0.1;
+            dotY += (mouseY - dotY) * 0.1;
+            innerDot.style.top = `${dotY}px`;
+            innerDot.style.left = `${dotX}px`;
+            requestAnimationFrame(animateDot);
+        }
+
+        animateDot();
+    </script>
+
 </body>
 </html>
