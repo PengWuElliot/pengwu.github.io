@@ -36,7 +36,7 @@ html, body {
   border-radius: 50%;
   object-fit: cover;
   box-shadow: 0 0 6px rgba(0,0,0,0.3);
-  border: 2px solid white;
+  border: 2px solid #ccc;
   z-index: 10;
   animation: blobMorph 6s infinite ease-in-out;
 }
@@ -82,6 +82,37 @@ html, body {
 }
 
 
+.social-links {
+  position: absolute;
+  bottom: 50px;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: rgba(0,0,0,0.5);
+  padding: 6px 12px;
+  border-radius: 20px;
+  z-index: 20;
+  display: flex;
+  gap: 15px;
+}
+
+.social-links a {
+  color: white;
+  font-size: 40px;
+  transition: color 0.3s;
+}
+
+.social-links a:hover {
+  color: #1e90ff;
+}
+
+.social-links a svg {
+  width: 100px;   /* 从原来30px变成40px */
+  height: 100px;
+  fill: white;
+  transition: fill 0.3s;
+}
+
+
 .image-container img {
   height: 100vh;
   width: auto;
@@ -120,23 +151,105 @@ a:hover {
   text-decoration: underline;
 }
 
+
 .education-header {
   display: flex;
-  align-items: center;
+  align-items: center; /* 顶部对齐 */
   margin-top: 40px;
   margin-bottom: 20px;
 }
 
 .education-header img {
-  height: 500px;         /* 固定高度 */
-  width: auto;          /* 自动等比例缩放宽度 */
-  margin-right: 10px;
+  height: 300px;
+  width: auto;
+  margin-right: 0px; /* 图片和时间线间距稍大点 */
 }
 
-.education-header h2 {
+/* The actual timeline (the vertical ruler) */
+.timeline {
+  position: relative;
   margin: 0;
-  font-size: 20px;
-  color: #2c3e50;
+}
+
+/* The actual timeline (the vertical ruler) */
+.timeline::after {
+  content: '';
+  position: absolute;
+  width: 1px;
+  background-color: #aaaaaa;
+  top: 0;
+  bottom: 0;
+  left: 50%;
+  margin-left: -3px;
+}
+
+/* Container around content */
+.timeline-container {
+  padding: 10px 10px;
+  position: relative;
+  background-color: inherit;
+  width: 50%;
+}
+
+/* The circles on the timeline */
+.timeline-container::after {
+  content: '';
+  position: absolute;
+  width: 25px;
+  height: 25px;
+  right: -17px;
+  background-color: white;
+  border: 1px solid #aaaaaa;
+  top: 15px;
+  border-radius: 50%;
+  z-index: 1;
+}
+
+
+/* Place the container to the right */
+.right {
+  left: 50%;
+}
+
+/* Fix the circle for containers on the right side */
+.right::after {
+  left: -16px;
+}
+
+/* The actual content */
+.content {
+  padding: 10px 10px;
+  background-color: white;
+  position: relative;
+  border-radius: 6px;
+}
+
+.time {
+  color: #8888;          
+  display: block;
+  font-size: 14px;
+  margin-bottom: 0px;
+}
+
+.text-right {
+  position: absolute;
+  top: 10px;
+  left: calc(100% + 10px); /* 放在右侧边框之外 */
+  white-space: nowrap;
+  font-size: 14px;
+  color: #666;
+}
+
+.text-right p:nth-child(1) {
+  font-weight: bold; /* 第一行加粗 */
+  margin: 2px 0;
+  line-height: 1.5;
+}
+
+.text-right p:nth-child(2) {
+  font-weight: normal; /* 第二行正常 */
+  margin: 2px 0;
+  line-height: 1.5;
 }
 
 /* 隐藏默认鼠标 */
@@ -167,4 +280,21 @@ body {
   pointer-events: none;
   z-index: 10000;
   transform: translate(-50%, -50%);
+}
+
+
+.section-title {
+  font-weight: bold;  
+  text-align: center;
+  font-family: 'Helvetica Neue', 'Arial Narrow';
+  font-size: 35px;
+  margin-top: 40px;
+  margin-bottom: 20px;
+  letter-spacing: 1px;
+}
+
+h3 {
+  font-weight: 400;       /* 更粗 */
+  color: #555;                  /* 字体淡一些，#555 是一种柔和的深灰 */
+  font-size: 20px;      /* 调大字号 */
 }

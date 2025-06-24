@@ -1,36 +1,87 @@
 <!DOCTYPE html>
-<html lang="zh-CN">
+<html lang="zh-CNs">
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>About Peng</title>
   <link rel="stylesheet" href="style.css" />
+  <link
+  rel="stylesheet"
+  href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"/>
+
 </head>
 
 
 <body>
     <div class="container">
         <div class="image-container">
-        <img class="top-circle" src="assets/profile.jpg" alt="profile" />
-        <img src="assets/norway.png" alt="Peng's Photo" />
-        <div class="overlay-text">
-            <div class="name">Peng</div>
-            <div class="quote">Live today as if it were the last.</div>
-        </div>
+            <img class="top-circle" src="assets/profile.jpg" alt="profile" />
+            <img src="assets/norway.png" alt="Peng's Photo" />
+            <div class="overlay-text">
+                <div class="name">Peng</div>
+                <div class="quote">Live today as if it were the last.</div>
+            </div>
+            <div class="social-links">
+                <a href="https://github.com/PengWuElliot?tab=repositories" target="_blank" aria-label="GitHub">
+                    <i class="fa-brands fa-github"></i>
+                </a>
+                <a href="https://space.bilibili.com/3493077910030567?spm_id_from=333.1007.0.0" target="_blank" aria-label="Bilibili">
+                    <i class="fa-brands fa-bilibili"></i>
+                </a>
+                <a href="https://www.goodreads.com/review/list/190664900?ref=nav_mybooks" target="_blank" aria-label="goodreads">
+                    <i class="fa-brands fa-goodreads"></i>
+                </a>
+            </div>
         </div>
         <div class="text-container">
             <h1>About Me</h1>
-            <p>Hey there! 👋 I'm <strong>Peng</strong>. I'm doing my master study in the double degree program between <strong>KTH </strong>and <strong>Aalto University</strong>.
-                Currently I'm writing my thesis (Anomaly Detection Empowered by Diffusion Models) under the guidance of <strong>Prof. Chao Yang</strong> and <strong>Professor Lei Feng</strong>.
+            <p>Hey there! 👋 I'm <strong>Peng</strong>. I'm doing my master study at <strong>KTH</strong> and <strong>Aalto University</strong> double degree program.
+                Currently I'm writing my thesis under the guidance of <strong>Dr. Chao Yang</strong> and <strong>Prof. Lei Feng</strong>.
                 My study focuses on the implementation and application of Artificial Intelligence Algorithms. 
-                I love being in nature and enjoy sitting and hiking in forests and mountains. I have a deep passion for reading, 
-                from ancient Stoic philosophy to Hayek's political economy theories. Their spartan character and simple way of life shaped my life and mind.
             </p>
-            <p>📄 You can find my detailed CV <a href="#">here</a>.</p>
+            <p>
+                My interest lie in <strong>algorithms development</strong>, <strong>economics</strong> and <strong>business development</strong>. I really like Stoic philosophy and Hayek and Taleb's Pragmatism.
+                I love being in nature and enjoy sitting and hiking in forests🌳and mountains⛰️.
+            </p>
+
+            <p>         
+                Last year I tried to build a small company combing social media with e-commence to sell Finnish products🍫 to China. It failed miserably because I can't attract enough customers. Maybe becuase
+                I'm a boring person (I'm kidding). You can still find my videos on <a href="https://space.bilibili.com/3493077910030567?spm_id_from=333.1007.0.0" target="_blank">Bilibili</a> (They look stupid, don't watch too much).
+            </p>
+            <p>📄 You can find my detailed CV <a href="https://drive.google.com/file/d/16FxhIoCMMWAfgt0PYKJKfJJaSxTE9KEb/view?usp=sharing">here</a>.
+            </p>
             <div class="education-header">
-                <img src="assets/person.jpg" alt="Education Icon" />
-                <h2>Education</h2>
+                <img src="assets/person.png" alt="Education Icon" class="img" />
+                <div class="timeline">
+                <div class="timeline-container right">
+                    <div class="content">
+                    <span class="time">2023-present</span>
+                    </div>
+                        <div class="text-right"> 
+                            <p>KTH Royal Institute of Technology & Aalto University</p>
+                            <p>Master in Autonomous System, Double Degree</p>
+                        </div>
+                </div>
+                <div class="timeline-container right">
+                    <div class="content">
+                    <span class="time">2021-2023</span>
+                    </div>
+                        <div class="text-right"> 
+                            <p>Dalian University of Technology</p>
+                            <p>Bachelor in Automation | GPA: 88.1/100 | Rank: 2/203</p></p>
+                         </div>                   
+                    </div>
+                </div>
             </div>
+            <h2 class="section-title">Work Experience</h2>
+            <h3><strong>Thesis Worker</strong>, Aalto University, May 2025 - Present</h3>
+            <p>Enhance diffusion models for anomaly synthesis of overhead cranes</p>
+
+            <h3><strong>Research Assistant</strong>, Aalto University, May 2024 - Aug 2024</h3>
+            <p>Develop AR and Visual Detection functionalities in Unity; Develop end-end video collection, low-lotency transmission and storage using Raspiberry Pi, AWS WebRTC and Unity</p>
+
+            <h3><strong>Software Designer</strong>, Ericsson, June 2021 - July 2023</h3>
+            <p>Develop 5G core network functions; collaborate with product manager to define software requirements</p>
         </div>
     </div>
     <script>
