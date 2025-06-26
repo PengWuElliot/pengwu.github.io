@@ -6,20 +6,20 @@ Routine:
 ## Monday: Chest 
 Push up: 20 * 3 
 ## Tuesday: Belly
-Leg Raising: 20 * 3 \\
-Sit-up: 100 \\
+Leg Raising: 20 * 3 \
+Sit-up: 100 \
 Russian twist：100 
 ## Wednesday: Legs
-One leg Squat: 3 * 2 *  2 \\
+One leg Squat: 3 * 2 *  2 \
 Squat: 30 * 2 
 ## Thursday: Back
 Bridge: 10 * 3
-## Friday
+## Friday: Shoulder
 Hand Stand pushups
-
 ## Weekend
 Running
 
+I watched too many videos today. I shouldn't do that. 
 
 
 
