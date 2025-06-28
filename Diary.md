@@ -15,7 +15,9 @@ Squat: 30 * 2
 ## Thursday: Back
 Bridge: 10 * 3
 ## Friday: Shoulder
-Hand Stand pushups
+Handstand: 30s * 4 (try to not rely on the wall) \
+Slope pushup: 15 * 3
+
 ## Weekend
 Running
 
