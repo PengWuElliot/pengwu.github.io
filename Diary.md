@@ -1,10 +1,7 @@
-# Helsinki, 25 June 2025
-I love my life here. I'll be more self-constraint and do meaningful things every day. I try to be a good person like the people I know.
-
-# Helsinki, 25 June 2025
-Routine: 
+# Exercise Routine
 ## Monday: Chest 
 Push up: 20 * 3 
+
 ## Tuesday: Belly
 Leg Raising: 20 * 3 \
 Sit-up: 100 \
