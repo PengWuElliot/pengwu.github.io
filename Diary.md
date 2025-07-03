@@ -29,5 +29,8 @@ Running
 So run, horse, run down the road to the plain, run before it is too late. Don't stop even if you are tired before you see the green 
 meadrows, the familiar trees, people's houses, the churches and the belfries. 
 
-
+# Daily Routine
+Morning: Exercise \
+Work and read \
+Evening: Read \
 
