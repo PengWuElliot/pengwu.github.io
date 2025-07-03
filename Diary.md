@@ -1,16 +1,24 @@
 # Exercise Routine
+
 ## Monday: Chest 
-Push up: 20 * 3 
+Diamond pushup: 15 * 3 \
+Wide pushup: 15 * 3 \
+Push up: 20 * 3  \
+Until dead
 
 ## Tuesday: Belly
 Leg Raising: 20 * 3 \
-Sit-up: 100 \
+Sit-up: 50 * 3 \
 Russian twist：100 
+
 ## Wednesday: Legs
 One leg Squat: 3 * 2 *  2 \
 Squat: 30 * 2 
+
 ## Thursday: Back
-Bridge: 10 * 3
+Angled bridges: 30 * 3 \
+Straight bridges： 40 * 3 
+
 ## Friday: Shoulder
 Handstand: 30s * 4 (try to not rely on the wall) \
 Slope pushup: 15 * 3
@@ -18,7 +26,6 @@ Slope pushup: 15 * 3
 ## Weekend
 Running
 
-I watched too many videos today. I shouldn't do that. \
 So run, horse, run down the road to the plain, run before it is too late. Don't stop even if you are tired before you see the green 
 meadrows, the familiar trees, people's houses, the churches and the belfries. 
 
