@@ -9,6 +9,7 @@ Until dead
 ## Tuesday: Belly
 Leg Raising: 20 * 3 \
 Sit-up: 50 * 3 \
+Side Plank: 40s * 3
 Russian twist：100 
 
 ## Wednesday: Legs
