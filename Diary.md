@@ -13,8 +13,9 @@ Side Plank: 40s * 3
 Russian twist：100 
 
 ## Wednesday: Legs
-One leg Squat: 3 * 2 *  2 \
-Squat: 30 * 2 
+One leg Squat: 3 * 2 \
+Squat: 30 * 3 \
+Lunge: 15 * 3
 
 ## Thursday: Back
 Angled bridges: 30 * 3 \
