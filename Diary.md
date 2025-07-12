@@ -1,25 +1,30 @@
 # Exercise Routine
+Principle: 4 motions
+Shoulder?
 
 ## Monday: Chest 
-Diamond pushup: 15 * 3 \
-Wide pushup: 15 * 3 \
+Bench Press: 15 * 3 \
 Push up: 20 * 3  \
-Until dead
+Diamond pushup: 15 * 3 \
+Wide pushup: 15 * 3 
 
-## Tuesday: Belly
+## Tuesday: Back
+Wide Pullup: 4 * 4 \
+Pull: 32.5 * 4 \
+Angled bridges: 30 * 3 \
+
+## Wednesday: Belly
+HANGING KNEE RAISES: 10 * 3 \
 Leg Raising: 20 * 3 \
 Sit-up: 50 * 3 \
 Side Plank: 40s * 3
 Russian twist：100 
 
-## Wednesday: Legs
+## Thursday: Legs
+Squat\
 One leg Squat: 3 * 2 \
 Squat: 30 * 3 \
 Lunge: 15 * 3
-
-## Thursday: Back
-Angled bridges: 30 * 3 \
-Straight bridges： 40 * 3 
 
 ## Friday: Shoulder
 Handstand: 30s * 4 (try to not rely on the wall) \
